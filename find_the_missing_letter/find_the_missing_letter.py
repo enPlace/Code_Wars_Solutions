@@ -16,3 +16,5 @@ def find_missing_letter(chars):
 
 
 print(find_missing_letter(['O','Q','R','S']))
+print((find_missing_letter(['a','b','c','d','f'])))
+print(find_missing_letter(['b','d']))
