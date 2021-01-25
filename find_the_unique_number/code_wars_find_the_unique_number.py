@@ -14,6 +14,8 @@ def find_unique(arr):
 	else: 
 		pass
 print(find_unique(test1))
-
+print(find_unique(test2))
+print(find_unique(test3))
+print(find_unique(test4))
 
 
