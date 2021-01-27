@@ -26,3 +26,10 @@ def persistence(num):
 	return count
 
 
+print(persistence(39))
+print(persistence(4))
+print(persistence(25))
+print(persistence(999))
+print(persistence(444))
+
+
