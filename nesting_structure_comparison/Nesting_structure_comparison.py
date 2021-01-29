@@ -81,6 +81,8 @@ print("should return True")
 print(same_structure_as(1,100))
 
 
-print("")
+
+print(" ")
 print("Should return True")
 print(same_structure_as([1,'[',']'],  ['[',']',1]))
+
