@@ -1,4 +1,4 @@
-"""
+
 https://www.codewars.com/kata/520446778469526ec0000001/solutions/python/me/best_practice
 Description:
 
@@ -19,5 +19,4 @@ same_structure_as([ [ [ ], [ ] ] ], [ [ [ ], [ ] ] ] )
 
 # should return False
 same_structure_as([ [ [ ], [ ] ] ], [ [ 1, 1 ] ] )
-
 
