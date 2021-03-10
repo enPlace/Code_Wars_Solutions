@@ -19,6 +19,3 @@ function XO(str) {
 console.log(XO('Xo'))
 
 
-x='hello'
-console.log(typeof x)
-console.log(xcount)
