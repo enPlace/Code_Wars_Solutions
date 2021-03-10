@@ -3,8 +3,8 @@ The method must return a boolean and be case insensitive.
 The string can contain any char.*/
 
 function XO(str) {
-	xcount = 0; 
-	ocount = 0;
+	let xcount = 0; 
+	let ocount = 0;
    for (let i in str){
    	if (str.toLowerCase()[i]=='x'){
    		xcount++
@@ -17,3 +17,8 @@ function XO(str) {
 
 
 console.log(XO('Xo'))
+
+
+x='hello'
+console.log(typeof x)
+console.log(xcount)
