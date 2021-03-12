@@ -19,4 +19,7 @@ We want to do a few things here.
 3. combine the arrays
 4. turn them back into strings. 
 
-In JavaScript, we can do this quite easily with [...new Set()]
+In JavaScript, we can filter, convert to an array quite easily with [...new Set()]. 
+We can .sort() and .join() after to turn back into a single sorted string. 
+
+In Python, we can do essentially the same thing by using 
