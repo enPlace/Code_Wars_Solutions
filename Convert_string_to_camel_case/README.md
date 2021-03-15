@@ -8,7 +8,9 @@ Examples
 
 #Notes for solving. 
 
-We have to split by dash or underscore
-if str[0] not capitalized, reg camel case
-if capitalized, upper camel case. 
+1. We have to split by dash and/or underscore. 
+2. Will the string have only one or the other or both? 
+	Answer: both
+3. if str[0] not capitalized, reg camel case
+4. if capitalized, upper camel case. 
 
