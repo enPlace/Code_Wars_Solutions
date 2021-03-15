@@ -13,4 +13,3 @@ Examples
 	Answer: both
 3. if str[0] not capitalized, reg camel case
 4. if capitalized, upper camel case. 
-
