@@ -22,4 +22,5 @@ We want to do a few things here.
 In JavaScript, we can filter, convert to an array quite easily with [...new Set()]. 
 We can .sort() and .join() after to turn back into a single sorted string. 
 
-In Python, we can do essentially the same thing by using 
+In Python, we can do essentially the same thing by using set() and sorted() and 
+joining (''.join()) the list we get from that.  
