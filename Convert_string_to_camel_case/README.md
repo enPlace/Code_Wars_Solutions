@@ -12,4 +12,6 @@ Examples
 2. Will the string have only one or the other or both? 
 	Answer: both
 3. if str[0] not capitalized, reg camel case
-4. if capitalized, upper camel case. 
+4. if capitalized, upper camel case.
+
+We can simplify 3 and 4 by popping the first item in the array we get from splitting the string.  
