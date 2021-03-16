@@ -1,12 +1,12 @@
-def camelCase(text): 
-    arr = text.replace("-", "_").split("_")
-    return arr.pop(0) + "".join([i.capitalize() for i in arr])
-  
+def cubeFinder(num): 
+    cubed = 0
+    if num == 0: 
+        return -1
+    for i in range(num): 
+        cubed += i**3
+        if cubed == num: 
+            return i
+        if cubed > num: 
+            return -1
 
-    
-
-
-
-print(camelCase("A-Cat_was-a_kitty-Before"))
-
-
+print(cubeFinder(9))

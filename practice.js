@@ -1,6 +1,6 @@
 function camelCase(text){
 	let arr = text.replace(/-/g, "_").split("_")
-	camel= arr.shift()
+	let camel= arr.shift()
 	for (i = 0; i< arr.length; i++){
 		camel += arr[i][0].toUpperCase() + arr[i].slice(1)
 	}
