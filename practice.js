@@ -1,24 +1,7 @@
-function xo(str){
-	let xcount =0;
-	let ocount =0;
-	for(i = 0; i<str.length; i++){
-		if (str.toLowerCase()[i]== 'x'){
-			xcount++
-		}
-		if (str.toLowerCase()[i] =='o'){
-			ocount++
+correct = [1,2,"Fizz",4,"Buzz","Fizz",7,8,"Fizz","Buzz",11,"Fizz",13,14,"FizzBuzz",16,17,"Fizz",19,"Buzz","Fizz",22,23,"Fizz","Buzz",26,"Fizz",28,29,"FizzBuzz"]
+mine =    [1,2,"Fizz",4,"Buzz","Fizz",7,8,"Fizz","Buzz",11,"Fizz",13,14,"Fizzbuzz",16,17,"Fizz",19,"Buzz","Fizz",22,23,"Fizz","Buzz",26,"Fizz",28,29,"Fizzbuzz"]
 
-		}
-
-	}
-	
-	return xcount == ocount
-}
-
-function xos(str){
-	return str.toLowerCase().split("o").join("").length == str.toLowerCase().split("x").join("").length
-}
-console.log(xos("Xhello"))
-
-
-console.log("test".split("t").join("").length)
+for i in range(len(correct)): 
+	if correct[i] != mine[i]: 
+		print(i)
+		print(mine[i], correct[i])

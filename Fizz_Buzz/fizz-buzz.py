@@ -14,10 +14,4 @@ def fizzbuzz(n):
 
 print(fizzbuzz(30))
 
-#list comprehension format 
 
-def fizzbuzz(n): 
-    array = list(range(1, n+1))
-    return ["Fizzbuzz" if i ==3 for i in array ]
-
-print(fizzbuzz(16))
