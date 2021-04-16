@@ -19,3 +19,10 @@ foo9 -> foo10
 foo099 -> foo100
 
 Attention: If the number has leading zeros the amount of digits should be considered.
+
+
+
+1. separate by numbers that aren't 0
+2. convert that string into a number
+3. add 1 to the number
+4. add the number back to the string
