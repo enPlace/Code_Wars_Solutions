@@ -27,5 +27,5 @@ function incrementStringy(strng){
 		:add1
 	})
 }
-console.log(incrementString("abc00123"))
-console.log(incrementStringy("abc00123"))
+console.log(incrementString("abc0000123"))
+console.log(incrementStringy("abc0000123"))
