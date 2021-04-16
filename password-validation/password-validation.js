@@ -1,14 +1,10 @@
-mustContain = /^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z]).{6,}$/
+mustContain = /^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])[A-Za-z0-9]{6,}$/
 mustNotContain = /\s/
 
 console.log(!mustNotContain.test(""))
 
-function validate(password) {
-  const mustContain = /^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z]).{6,}$/
-  const mustNotContain = /\s/
-  if (mustContain.test(password)&& !mustNotContain.test(password)){
-    return true
-  }else{
-    return false
-  }
-  }
+
+  function validate(password) {
+  return /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[a-zA-Z0-9]{6,}$/.test(password);
+}
+  
