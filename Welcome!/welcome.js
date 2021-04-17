@@ -1,4 +1,5 @@
-const languages = {english: 'Welcome',
+function greet(language) {
+  const languages = {english: 'Welcome',
 czech: 'Vitejte',
 danish: 'Velkomst',
 dutch: 'Welkom',
@@ -16,10 +17,7 @@ spanish: 'Bienvenido',
 swedish: 'Valkommen',
 welsh: 'Croeso'
 }
-function greet(language){
-
-console.log(languages.language)
-return languages[language]
+  
+  return languages[language] || languages.english
+	
 }
-
-console.log(languages["butt"])
