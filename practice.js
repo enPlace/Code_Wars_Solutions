@@ -1,13 +1,7 @@
-function reverseWords(str){
-  array = str.split(" ")
-  backwords= ""
-  for (let i = array.length-1; i>-1; i--){
-  	backwords += array[i] +" "
+const key = {"+": +};
 
 
-  }
+plus = key["+"]
+console.log(4 plus 2)
 
-  return backwords.slice(0, backwords.length-1)
-}
 
-console.log(reverseWords("hell raiser"))
