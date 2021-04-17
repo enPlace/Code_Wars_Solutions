@@ -1,25 +1,13 @@
-const languages = {english: 'Welcome',
-czech: 'Vitejte',
-danish: 'Velkomst',
-dutch: 'Welkom',
-estonian: 'Tere tulemast',
-finnish: 'Tervetuloa',
-flemish: 'Welgekomen',
-french: 'Bienvenue',
-german: 'Willkommen',
-irish: 'Failte',
-italian: 'Benvenuto',
-latvian: 'Gaidits',
-lithuanian: 'Laukiamas',
-polish: 'Witamy',
-spanish: 'Bienvenido',
-swedish: 'Valkommen',
-welsh: 'Croeso'
-}
-function greet(language){
+function reverseWords(str){
+  array = str.split(" ")
+  backwords= ""
+  for (let i = array.length-1; i>-1; i--){
+  	backwords += array[i] +" "
 
-console.log(languages.language)
-return languages[language]
+
+  }
+
+  return backwords.slice(0, backwords.length-1)
 }
 
-console.log(languages["butt"])
+console.log(reverseWords("hell raiser"))
