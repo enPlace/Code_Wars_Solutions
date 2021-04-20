@@ -6,4 +6,4 @@ function countPositivesSumNegatives(input) {
       return (num >0) ? count++ : sum +=num
     })
   return [count, sum]
-}t,
+}
