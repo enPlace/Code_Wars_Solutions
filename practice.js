@@ -1,20 +1,19 @@
-arr1 =[1,65,4,5,8,2,9,89,34,1,23,56]
+const inventory = {
+  sunglasses: 1900,
+  pants: 1088,
+  bags: 1344
+};
 
-arr2= [3,2,1]
+// Write your code below:
 
-function insertionSort(array){
-	for(let i =1; i<array.length; i++){
-		let j = i
-		while(array[j]< array[j-1]){
-			let current = array[j]
-			let prev = array[j-1]
-			array[j] = prev
-			array[j-1] = current
-			j--
-			console.log(array)
-		}
-	}
-	return array
+function myExecutor(){
+  if (inventory[sunglasses]>0){
+    resolve("Sunglasses order processed.")
+  }else{
+    reject("That item is sold out.")
+  }
 }
 
-console.log(insertionSort(arr1))
+
+console.log(inventory["sunglasses"])
+
