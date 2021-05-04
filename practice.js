@@ -1,1 +1,5 @@
-console.log(1.4%3)
+let i = 5
+while(i>0){
+	console.log(i)
+	i--
+}
