@@ -1,7 +1,7 @@
 function openOrSenior(data){
  	return data.map(list=>{
  		return (list[0]>=55&& list[1]>7)? list="Senior"
- 		:  list="Open"
+ 		: list="Open"
  	})
 
  	}
